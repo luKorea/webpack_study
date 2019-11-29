@@ -2,11 +2,11 @@
   "name": "webpack_learn",
   "version": "1.0.1",
   "description": "webpack4学习",
-  "main": "index.js",
+  "main": "src/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx webpack --mode development",
-    "dev": "webpack-dev-server --mode development"
+    "dev": "webpack-dev-server --open --mode development"
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,9 @@
     "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
     "style-loader": "^1.0.1",
     "webpack-dev-server": "^3.9.0"
   }
