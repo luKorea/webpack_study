@@ -1,0 +1,33 @@
+{
+  "name": "webpack_learn",
+  "version": "1.0.1",
+  "description": "webpack4学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luKorea/webpack4_ppt.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "korealu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luKorea/webpack4_ppt/issues"
+  },
+  "homepage": "https://github.com/luKorea/webpack4_ppt#readme",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.1",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
