@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    width: 100%;
+    height: 100%;
+}
+.demo {
+    -webkit-transform: translate3d(1px, 1px, 10px);
+            transform: translate3d(1px, 1px, 10px);
+}
